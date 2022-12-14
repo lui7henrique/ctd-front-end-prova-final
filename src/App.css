@@ -1,0 +1,58 @@
+@import url("http://fonts.cdnfonts.com/css/homer-simpson-revised");
+
+body {
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.App {
+  text-align: center;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-family: "Homer Simpson Revised", sans-serif;
+}
+
+.logo {
+  width: 300px;
+  margin: 1rem;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./assets/homer-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 3rem;
+  height: 100vh;
+}
+
+.App-bio {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 10px #000;
+  background-color: red;
+  background-image: url(./assets/sky-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 1rem;
+}
+
+.App-news {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-image: url(./assets/homer-soap.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 1rem;
+}
